@@ -5,10 +5,10 @@ Neural machine translation. A blog on CVAE: [https://ijdykeman.github.io/ml/2016
 
 ## Dataset
 CelebA dataset contains more than 200K celebrity images, each with 40 binary face attributes
-annotations (like Male, Smiling, eye galsses etc.). Each image has its own face attributes
-annotation, which is encoded as a 40-dimensional binary vector: 0 means that the image
-does not show the corresponding attribute, 1 means that it does. The database can be
-downloeaded using in-built functions in PyTorch/TensorFlow or can be downloaded from :
+annotations (like Male, Smiling, eye glasses etc.). Each image has its own face attributes
+annotation, encoded as a 40-dimensional binary vector: 0 means that the image
+does not show the corresponding attribute, and 1 means that it does. The database can be
+downloaded using in-built functions in PyTorch/TensorFlow or can be downloaded from :
 [https://mmlab.ie.cuhk.edu.hk/projects/CelebA.html]() (Download only AlignedCropped
 Images and Attributes Annotations). Place **img_align_celeb.zip** inside [data](data) directory. 
 
@@ -22,7 +22,7 @@ Images and Attributes Annotations). Place **img_align_celeb.zip** inside [data](
 ### Original image
 ![](./results/original_test_data.png)
 
-### Non similing images to similing
+### Non-smiling images to smiling
 ![](./results/similing.png)
 
 ### Non-mustached to Mustached
@@ -31,4 +31,4 @@ Images and Attributes Annotations). Place **img_align_celeb.zip** inside [data](
 ### Non-glass wearing to Glass wearing
 ![](./results/eyeglasses.png)
 
-(Note: Quality of the output images can be further improved by training a more comple CVAE)
+(Note: Quality of the output images can be further improved by training a more complex CVAE)
